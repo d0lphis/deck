@@ -1,26 +1,3 @@
-<style>
-  .hint {
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 0px;
-    background-color: rgb(214,246,255);
-    border-radius: 3px;
-  }
-  .code {
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 0px;
-    background-color: rgb(3,37,85);
-    color: rgb(220,213,215);
-    border-radius: 3px;
-    font-size: 13px;
-  }
-  .highlight {
-    background-color: rgb(249,249,249);
-    padding: 3px 5px 3px 5px;
-    border-radius: 3px;
-  }
-</style>
-
-
 #Add Windows nodes to IBM Cloud Private Linux Cluster
 
 
@@ -36,10 +13,10 @@ Since the release of Kubernetes 1.9 and Windows Server version 1709, it's the gr
 
 This page serves as a guide for getting started joining a brand new Windows node to an existing ICP Linux cluster.
 
-<div class="hint"><div>&#9888; Tip:</div>
+<span style="color:gray">
+⚠Tip:
 If you would like to deploy a cluster on Azure, the open source ACS-Engine tool makes this easy. A step by step <a href="https://github.com/Azure/acs-engine/blob/master/docs/kubernetes/windows.md">walkthrough</a> is available.
-</div>
-
+</span>
 
 
 ##<a name="header"></a>What you will accomplish(updates incoming)
