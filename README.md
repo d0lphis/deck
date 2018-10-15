@@ -14,7 +14,7 @@ Since the release of Kubernetes 1.9 and Windows Server version 1709, it's the gr
 This page serves as a guide for getting started joining a brand new Windows node to an existing ICP Linux cluster.
 
 ⚠Tip:
-If you would like to deploy a cluster on Azure, the open source ACS-Engine tool makes this easy. A step by step <a href="https://github.com/Azure/acs-engine/blob/master/docs/kubernetes/windows.md">walkthrough</a> is available.
+If you would like to deploy a cluster on Azure, the open source ACS-Engine tool makes this easy. A step by step [walkthrough](#https://github.com/Azure/acs-engine/blob/master/docs/kubernetes/windows.md) is available.
 
 
 
