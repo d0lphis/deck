@@ -268,8 +268,8 @@ PS C:\k> .\kube-proxy.exe --kubeconfig=C:\k\etc\cfc\kube-proxy\kube-proxy-config
 You may noticed the Windows node status is NotReady.
 ```
 PS C:\k> kubectl get nodes
-NAME		                            STATUS     	ROLES                                                     AGE   VERSIONs
-<ICP_master_ip>               Ready		      etcd,management,master,proxy,worker   9d       v1.11.1+icp-ee
-<Windows_node_name>   NotReady   <none>                                	                   	37m	    v1.9.1
+NAME		                STATUS     ROLES                                 AGE   VERSIONs
+<ICP_master_ip>       Ready		    etcd,management,master,proxy,worker   9d    v1.11.1+icp-ee
+<Windows_node_name>   NotReady   <none>                                37m	  v1.9.1
 ```
 That's because ICP is using Calico as network plugin, in the next, we investigate deploying Calico on Windows so the newly joined Windows node can be in Ready status for sample service running.
