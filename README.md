@@ -18,7 +18,7 @@ This page serves as a guide for getting started joining a brand new Windows node
 
 
 
-## What you will accomplishx
+## What you will accomplish
 - [x] Configured a Linux master node
 - [x] Joined a Windows worker node to it
 - [ ] Prepared our network topology
